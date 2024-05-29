@@ -17,6 +17,9 @@ function App() {
       <button onClick={() => setCount((현재count) => 현재count - 1)}>
         감소
       </button>
+      <button onClick={() => setCount(0)}>
+        초기화
+      </button>
     </div>
   );
 }
